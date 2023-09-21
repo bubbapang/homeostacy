@@ -1,0 +1,32 @@
+
+design process
+1) your requirements are dumb, question constraints
+2) remove parts of process
+3) simplify
+4) accelerate cycle time
+5) automate
+
+TIX
+charge laptop
+change order of buttons
+move the cool and heat apart
+make all buttons bigger and weather emojis too
+    buttons
+    weather emojis
+make day bar shorter
+make sure player knows what the thresholds are
+make sure player knows what the weather modes do
+fix the day bar stopping mid way and the sim is over for some reason
+make it so that if you hit super hot or cold, you die, and have a dead emoji and a little game over message, and the sim stops
+make day a bit longer
+make the game end, THEN you can restart sim, so you can see what stage you failed in
+weather isnt corresponding to change in girl's temp
+game balance the sim changing temp, the mood thresholds, and the player input strength
+make the day bat shorter
+make a reset button when day ends
+only reset sim when the player clicks the reset button
+make the favicon an emoji and change title
+add a tiny +3, -5 to show what each weather mode does
+seperate the heat and cold buttons for FUN... hehehe
+put on github
+put on vercel

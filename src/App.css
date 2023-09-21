@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+/* General Styling */
+.Thermo-container {
+	background-color: #f7f7f7;
+	padding: 20px;
+	border-radius: 12px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Button Styling */
+.buttons {
+	display: flex;
+	gap: 20px;
+	margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button {
+	padding: 10px 20px;
+	border-radius: 8px;
+	border: none;
+	cursor: pointer;
+	font-size: 16px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.heat {
+	background-color: #ff9b9b;
 }
 
-.App-link {
-  color: #61dafb;
+.cool {
+	background-color: #9bafff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Weather, Temperature and Mood Section */
+.weather-temp-mood {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin: 20px;
+	text-align: center;
+	gap: 160px;
+}
+
+.weather-section,
+.temp-day,
+.girl-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 20px;
+	text-align: center;
+}
+
+.weather-section h2,
+.girl-section h2 {
+	margin-bottom: 10px;
+}
+
+.temp-day h1 {
+	font-size: 100px;
+}
+
+/* Day Progress Bar */
+.Day-progress-container {
+	width: 80%;
+	background-color: #ccc;
+	height: 20px;
+	border-radius: 10px;
+	margin-top: 20px;
+}
+
+.Day-progress-bar {
+	height: 100%;
+	background-color: #4caf50;
+	border-radius: 10px;
 }
