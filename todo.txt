@@ -6,27 +6,53 @@ design process
 4) accelerate cycle time
 5) automate
 
-TIX
-charge laptop
-change order of buttons
-move the cool and heat apart
-make all buttons bigger and weather emojis too
-    buttons
-    weather emojis
-make day bar shorter
-make sure player knows what the thresholds are
-make sure player knows what the weather modes do
-fix the day bar stopping mid way and the sim is over for some reason
-make it so that if you hit super hot or cold, you die, and have a dead emoji and a little game over message, and the sim stops
-make day a bit longer
-make the game end, THEN you can restart sim, so you can see what stage you failed in
-weather isnt corresponding to change in girl's temp
+NOTES
+deadlines paralyze, small next steps moMENT
+
+SALIENT-TICKETS
+the emoji should always be emojina neutral if the sound and game say you win
+    maybe make a you win and you lose text
+make sure fade doesnt change UI layout
+make the fade stick around a bit longer
+make sure game actually ends and fails when its supposed to
+make sure the fade text doesnt mess up the box sizing of flex boxes and mess up the UI layour
+if she reaches the danger range, she dies and game over alert
+when the test subject dies, set emoji to skull, play lose music, and stop the game, and show game over alert, and have a reset sim button text change
+do i use isgameover state var?
+when dead, give player option to reset sim ONLY
+make start button have a different color and hover effect
+make sure there is a standard variable to match the temp thresholds and what the actual game uses to calculate moods
+make the safe range smaller
+remove homestacy and emojina
+clean up instructions, no bullet points or just edit
+change background to a light pink
+change name to test subject
+change vercel name, send to kamia
+put the right emojis in instructions
+    weather
+    test subject
+temperature emoji for favicon
+test
+git push changes
+edit and clean up instructions
+flip the buttons and the day progress positions
+consolidate funcs as much as possible
+make sure funcs are used or remove em
+fix the instructions not showing accurate range info
+put a box around the instructions
+the weather keeps flip flopping too faster
+i want the player to see that they crossed a temp range.
+when the temp is in a certain range, change the tint of the text
 game balance the sim changing temp, the mood thresholds, and the player input strength
-make the day bat shorter
-make a reset button when day ends
-only reset sim when the player clicks the reset button
-make the favicon an emoji and change title
-add a tiny +3, -5 to show what each weather mode does
-seperate the heat and cold buttons for FUN... hehehe
-put on github
-put on vercel
+make sure weather doesnt keep changing even when the game is over. end of day should stop everything
+change vercel name
+fix the console warnings
+put plus 2 or 5 based next to weather icon. the rate of change
+get rid of weather modes instructions
+put -2s and +5s fading near the temp icon
+put a title with the thermometer pic, in instructions, rename it side bar
+make a 1,2,3 go
+simplify
+make the game harder
+
+teach kamia how this works and how to make it

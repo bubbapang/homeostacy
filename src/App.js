@@ -1,11 +1,11 @@
-import Thermo from './thermo';
+import Homeostasis from './files/homeostasis';
 
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Thermo />
+      <Homeostasis />
     </div>
   );
 }
